@@ -1,0 +1,328 @@
+/* nav{
+    background-color: black;
+    color: white;
+    padding: 16px;
+
+}
+li,h1,h4,ul{
+    display: inline;
+    
+}
+ul{
+    margin-left: 70%;
+        
+    }
+h4{
+    margin-left: 45px;
+}
+h4,li{
+    color: gray;
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+    
+}
+h4:hover{
+    color: White;
+}
+.Search{
+ 
+    padding: 50px;
+    box-sizing: 100px;
+    width: 500px;  
+   
+    
+    text-align: center;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+}
+
+.search-box {
+    width: 500px; 
+    height: 40px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;  
+  }
+  .search-button {
+    padding: 10px 20px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  .search-button:hover {
+    background-color:  #FF8E1C;
+  }
+
+.box{
+    display: inline-block;
+    width: 220px;
+    border-color: rgb(11, 11, 11);
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    margin-right:15px;
+    margin-top: 30PX;
+
+}
+.Product{
+    text-align: center;
+    
+}
+.box:hover{
+    background-color:#5ba4f2;
+    cursor: pointer;
+    color: white;
+}
+.Contactus{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    display: inline-block;
+}
+  
+ */
+ html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    background-color: #fcfcfc;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.Header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.Header nav h1 {
+    margin: 0;
+}
+
+.Header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.Header nav ul li {
+    margin-right: 20px;
+}
+
+.Header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Header nav h4 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.search-box {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.Product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center; /* Center align the product boxes */
+    padding: 20px;
+    margin-right: 300px;
+    align-items: center;
+    margin-left: 350px;
+}
+
+.box {
+    width: 270px;
+    border: 2px solid #0b0b0b;
+    text-align: center;
+    margin-right: 50px; /* Reduced the margin further */
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.box img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+
+.box:last-child {
+    margin-right: 0; /* No margin on the last box */
+}
+
+.box:hover {
+    background-color: #5ba4f2;
+    cursor: pointer;
+    color: white;
+}
+
+.Contactus {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    display: inline-block;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 16px;
+}
+
+li, h1, h4, ul {
+    display: inline;
+}
+
+ul {
+    margin-left: 70%;
+}
+
+h4 {
+    margin-left: 45px;
+
+}
+
+h4, li {
+    color: gray;
+    cursor: pointer;
+}
+
+li:hover {
+    color: white;
+}
+
+h4:hover {
+    color: white;
+}
+
+.Search {
+    padding: 50px;
+    box-sizing: 100px;
+    width: 500px;
+    text-align: center;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.search-box {
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+}
+
+.search-button {
+    padding: 10px 20px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #449dfc;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #19abff;
+}
+li:hover{
+    color: white;
+
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
+
+/* Social Media Icons */
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#insta:hover {
+    color: #ef1f1f;
+}
+#link:hover {
+    color: #008bf6;
+}
+#git:hover {
+    color: #cc62a5;
+}
+/* Footer */
+.Contactus {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
